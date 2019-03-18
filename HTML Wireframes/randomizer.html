@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Character Creator" content="Character Creator">
+
+    <title></title>
+
+    <!-- stylesheets -->
+    <link href="randomizer.css" rel="stylesheet">
+
+    <!-- normalize -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+    <!-- font -->
+
+    <!-- responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery and js scripts -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <!-- <script src="client.js"></script> -->
+</head>
+
+<body>
+    <header role="banner">
+        <h1 class="title">Smite God Randomizer</h1>
+        <a href="./landing-page.html">Sign In</a>
+        <a href="./registration.html">Register an Account</a>
+        <a href="./my-saved-builds.html">My Saved Builds</a>
+    </header>
+    <main role="main">
+        <div class="page-container">
+            <h2>Randomize a God!</h2>
+
+            <form class="randomizer-form">
+
+                <label for="assassin-check">Include Assassins</label>
+                <div class="form-input">
+                    <input type="checkbox" name="assassin-check" id="assassin-check" checked>
+                </div>
+
+                <label for="hunter-check">Include Hunters</label>
+                <div class="form-input">
+                    <input type="checkbox" name="hunter-check" id="hunter-check" checked>
+                </div>
+
+                <label for="guardian-check">Include Guardians</label>
+                <div class="form-input">
+                    <input type="checkbox" name="guardian-check" id="guardian-check" checked>
+                </div>
+
+                <label for="mage-check">Include Mages</label>
+                <div class="form-input">
+                    <input type="checkbox" name="mage-check" id="mage-check" checked>
+                </div>
+
+                <label for="warrior-check">Include Warriors</label>
+                <div class="form-input">
+                    <input type="checkbox" name="warrior-check" id="warrior-check" checked>
+                </div>
+
+                <button type="submit" class="randomize-god-button">
+                    <a href="./random-god.html" id="temporary-reference"> Random God! </a>
+                </button>
+
+            </form>
+
+        </div>
+    </main>
+</body>
+
+</html>

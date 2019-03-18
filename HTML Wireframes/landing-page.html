@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Character Creator" content="Character Creator">
+
+    <title></title>
+
+    <!-- stylesheets -->
+    <link href="landing-page.css" rel="stylesheet">
+
+    <!-- normalize -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+    <!-- font -->
+
+    <!-- responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery and js scripts -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <!-- <script src="client.js"></script> -->
+</head>
+
+<body>
+    <header role="banner">
+        <h1 class="title">SMITE God Randomizer</h1>
+        <a href="./registration.html">Register</a>
+        <a href="./randomizer.html">Continue without log in.</a>
+    </header>
+    <main role="main">
+        <div class="page-container">
+            <h2>Welcome to SMITE God Randomizer!</h2>
+            <p>
+                SMITE God Randomizer is a companion app to HiRez's video game "SMITE" that
+                allows you to easily randomize any God from the game's roster.
+                You can filter out any classes you do not desire to be part of the randomization,
+                and once the God is provided you may opt to random again.
+                You may also random the God's item build, and if you create a profile,
+                you will be able to save and revisit your favorite builds!
+                Log in and let's get random!
+            </p>
+            <p>
+                This is a fan-made app, I am not affiliated with HiRez, nor do I own or monetize any of the image
+                assets.
+                Check out the game <a href="https://www.smitegame.com/">here</a> if you want to learn more about it.
+                Check out their API for both SMITE and Paladins
+                <a href="https://www.hirezstudios.com/wp-content/themes/hi-rez-studios/pdf/smite-api-developer-guide.pdf">here</a>.
+            </p>
+
+            <form class="login-form">
+
+                <label for="username">Username</label>
+                <div class="form-input username">
+                    <input type="text" name="username" id="username">
+                </div>
+
+                <label for="password">Password</label>
+                <div class="form-input password">
+                    <input type="password" name="password" id="password">
+                </div>
+
+                <button type="submit" class="login-button">Log In</button>
+
+            </form>
+
+        </div>
+    </main>
+</body>
+
+</html>
